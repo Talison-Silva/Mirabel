@@ -1,0 +1,87 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("@assets/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("@assets/fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+:root {
+    --nav-bar-light-bg-gradrient: linear-gradient(to right, #f0f4f9, #ffffff);
+    --nav-bar-ligth-color: #645a84;
+    --main-light-bg: #e2e7f0;
+    --a-side-light-bg: linear-gradient(to right, #f0f4f9, #ffffff);
+
+    --nav-bar-dark: blue;
+}
+
+[data-color-theme="light"] {
+    .a-side {
+        background: var(--a-side-light-bg);
+    }
+
+    .nav-bar {
+        background: var(--nav-bar-light-bg-gradrient);
+        color: var(--nav-bar-ligth-color);
+    }
+
+    .content {
+        background-color: var(--main-light-bg);
+    }
+
+    .icon-arrow {
+        color: #645a84;
+    }
+}
+
+[data-color-theme="dark"] {
+    /* funciona*/
+}
+
+.shadow-inner-lg {
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {
+    .a-side {
+        display: block;
+    }
+
+    .icon-side-bar {
+        display: none;
+    }
+
+    .icon-arrow {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .a-side {
+        display: none;
+    }
+
+    .icon-side-bar {
+        display: block;
+    }
+
+    .icon-arrow {
+        display: none;
+    }
+}
