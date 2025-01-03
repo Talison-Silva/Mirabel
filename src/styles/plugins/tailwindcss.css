@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+.shadow-inner-lg {
+    /*box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.4);*/
+    border-top: 1px dashed #252c2c;
+}

@@ -1,0 +1,52 @@
+[data-color-theme="night"] {
+    .a-side {
+        background: var(--dark-aside-background-color);
+        color: var(--dark-aside-color);
+        border-right: 1px solid #282f2f;
+    }
+
+    .search {
+        background-color: #1f2424;
+    }
+
+    .nav-bar {
+        background: var(--dark-navbar-background-color);
+        border-bottom: 1px dashed #252c2c;
+    }
+
+    .nav-bar .separator {
+        background: #252c2c;
+    }
+
+    .nav-bar span {
+        color: var(--dark-navbar-color);
+    }
+
+    .nav-bar h1 {
+        color: white;
+    }
+
+    .content {
+        background-color: var(--dark-main-background);
+        //box-shadow: inset 1px 0px 4px rgba(37, 44, 44, 0.2);
+    }
+
+    .icon-arrow {
+        color: var(--dark-navbar-color);
+    }
+
+    .a-side-line {
+        border-bottom: 1px solid var(--dark-aside-line);
+    }
+
+    .toogle-theme {
+        background-color: #212324;
+    }
+
+    .toogle-theme-triangle {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid #212324;
+    }
+}

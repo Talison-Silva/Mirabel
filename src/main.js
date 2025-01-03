@@ -1,6 +1,16 @@
 import { createApp } from "vue";
-import "@assets/css/style.css";
-import App from "@app/App.vue";
-import { router } from "@app/routes";
+import App from "@/App.vue";
 
-createApp(App).use(router).mount("#app");
+import components from "@/components";
+import partials from "@/partials";
+
+import { router } from "@/router";
+import "@/styles/main.css";
+
+const app = createApp(App);
+app.use(router);
+
+components.register(app);
+partials.register(app);
+
+app.mount("#app");

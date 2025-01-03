@@ -1,0 +1,20 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import "variables.css";
+
+@import "plugins/tailwindcss.css";
+@import "plugins/fonts.css";
+
+@import "colors-mode/light-mode.css";
+@import "colors-mode/night-mode.css";
+
+@import "responsives/main.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    /*transition: background-color 300ms linear;*/
+}

@@ -1,0 +1,27 @@
+@media (min-width: 992px) {
+    .a-side {
+        display: block;
+    }
+
+    .icon-side-bar {
+        display: none;
+    }
+
+    .icon-arrow {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .a-side {
+        display: none;
+    }
+
+    .icon-side-bar {
+        display: block;
+    }
+
+    .icon-arrow {
+        display: none;
+    }
+}

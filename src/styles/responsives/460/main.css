@@ -1,0 +1,10 @@
+@media (min-width: 500px) {
+    .navbar-infor {
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    .navbar-infor {
+        display: none;
+    }
+}

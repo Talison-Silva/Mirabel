@@ -1,0 +1,49 @@
+[data-color-theme="light"] {
+    .a-side {
+        background: var(--light-aside-background-color);
+    }
+
+    .nav-bar {
+        background: var(--light-navbar-background-color);
+        border-bottom: 1px dashed #a0a0a0;
+    }
+
+    .nav-bar span {
+        color: var(--nav-bar-ligth-color-icons);
+    }
+
+    .nav-bar .separator {
+        background: #a0a0a0;
+    }
+
+    .search {
+        background-color: white;
+    }
+
+    .nav-bar h1 {
+        color: var(--nav-bar-ligth-color-text-primary);
+    }
+
+    .nav-bar p {
+        color: var(--nav-bar-ligth-color-text-secondary);
+    }
+
+    .content {
+        background-color: var(--main-light-bg);
+    }
+
+    .icon-arrow {
+        color: #645a84;
+    }
+
+    .toogle-theme {
+        background-color: #ffffff;
+    }
+
+    .toogle-theme-triangle {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid white;
+    }
+}
