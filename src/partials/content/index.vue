@@ -5,11 +5,10 @@ const props = defineProps(["toogleAside", "isToogle"]);
 </script>
 
 <template>
-    <main class="z-10 flex-grow h-full flex flex-col">
-        <Header />
-
-        <div class="content flex-grow .shadow-inner-lg">
-            <slot />
-        </div>
+    <main
+        class="content m-[8px] rounded-[16px] z-10 flex-grow max-h-full flex flex-col"
+    >
+        <!--<Header />-->
+        <slot />
     </main>
 </template>

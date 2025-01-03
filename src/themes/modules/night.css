@@ -1,17 +1,19 @@
 [data-color-theme="night"] {
+    & {
+        background: var(--dark-body);
+    }
+
     .a-side {
         background: var(--dark-aside-background-color);
         color: var(--dark-aside-color);
-        border-right: 1px solid #282f2f;
     }
 
     .search {
-        background-color: #1f2424;
+        background-color: #1a1a1d;
     }
 
     .nav-bar {
         background: var(--dark-navbar-background-color);
-        border-bottom: 1px dashed #252c2c;
     }
 
     .nav-bar .separator {
@@ -28,6 +30,7 @@
 
     .content {
         background-color: var(--dark-main-background);
+        border: 1px solid var(--dark-content-border);
         //box-shadow: inset 1px 0px 4px rgba(37, 44, 44, 0.2);
     }
 

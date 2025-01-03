@@ -16,12 +16,6 @@ function hoverToogle(state) {
         open.value = !open.value;
     }
 }
-
-console.log(
-    "default-value :. ",
-    props.scheme[props.valueDefault],
-    props.valueDefault,
-);
 </script>
 
 <template>

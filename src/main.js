@@ -5,7 +5,7 @@ import components from "@/components";
 import partials from "@/partials";
 
 import { router } from "@/router";
-import "@/styles/main.css";
+import "@/assets/css/main.css";
 
 const app = createApp(App);
 app.use(router);

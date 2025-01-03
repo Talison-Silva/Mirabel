@@ -1,12 +1,12 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
-@import "variables.css";
+@import "../../themes/variables.css";
 
 @import "plugins/tailwindcss.css";
 @import "plugins/fonts.css";
 
-@import "colors-mode/light-mode.css";
-@import "colors-mode/night-mode.css";
+@import "../../themes/modules/light.css";
+@import "../../themes/modules/night.css";
 
 @import "responsives/main.css";
 

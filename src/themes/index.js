@@ -1,6 +1,4 @@
 class ThemesMeneger {
-  ref = null;
-
   get() {
     var themeStorage = localStorage.getItem("prefers-color-scheme");
 

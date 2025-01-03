@@ -8,12 +8,14 @@
     --light-aside-background-color: rgba(255, 255, 255, 1);
 
     /* -- NIGHT THEME -- */
-    --dark-navbar-background-color: rgba(24, 29, 29, 1);
+    --dark-body: #151518;
+    --dark-navbar-background-color: transparent;
     --dark-navbar-color: #536867;
 
-    --dark-aside-background-color: rgba(32, 38, 38, 1);
+    --dark-aside-background-color: transparent;
     --dark-aside-line: #181a1;
     --dark-aside-color: #809794;
 
-    --dark-main-background: rgba(22, 27, 27, 1);
+    --dark-main-background: #1a1a1d;
+    --dark-content-border: #252528;
 }
